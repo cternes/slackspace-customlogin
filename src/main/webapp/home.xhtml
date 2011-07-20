@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	template="/WEB-INF/templates/template.xhtml">
+	<ui:define name="content">
+		
+		<h1><h:outputText value="Welcome Page"/></h1>
+		<br />
+		
+		<p>
+			Please navigate to the <h:link value="custom login page" outcome="protected" /> to log in.
+		</p>
+		
+		<p>
+			Use rod:koala as credentials.
+		</p>
+		
+
+	</ui:define>
+</ui:composition>
